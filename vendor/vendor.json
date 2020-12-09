@@ -119,6 +119,30 @@
 			"versionExact": "v1.6.3"
 		},
 		{
+			"checksumSHA1": "SofWJg6Ec0UEC+dWDKQsbmgx3I8=",
+			"path": "github.com/go-playground/locales",
+			"revision": "ac5643571b2e4508ec50f9a132b5a683412b5bbe",
+			"revisionTime": "2020-09-27T18:55:35Z"
+		},
+		{
+			"checksumSHA1": "JgF260rC9YpWyY5WEljjimWLUXs=",
+			"path": "github.com/go-playground/locales/currency",
+			"revision": "ac5643571b2e4508ec50f9a132b5a683412b5bbe",
+			"revisionTime": "2020-09-27T18:55:35Z"
+		},
+		{
+			"checksumSHA1": "HVChkE8LKMhgaqaSOu4unWPYAXY=",
+			"path": "github.com/go-playground/universal-translator",
+			"revision": "f87b1403479a348651dbf5f07f5cc6e5fcf07008",
+			"revisionTime": "2019-11-11T20:22:24Z"
+		},
+		{
+			"checksumSHA1": "iDhKzSfTreMoxk8PGwxGWf6+ypQ=",
+			"path": "github.com/go-playground/validator",
+			"revision": "f6584a41c8acc5dfc0b62f7962811f5231c11530",
+			"revisionTime": "2020-10-17T19:09:18Z"
+		},
+		{
 			"path": "github.com/go-playground/validator/v10",
 			"revision": ""
 		},
@@ -247,6 +271,12 @@
 			"path": "github.com/juju/errors",
 			"revision": "22422dad46e14561a0854ad42497a75af9b61909",
 			"revisionTime": "2018-08-06T07:45:54Z"
+		},
+		{
+			"checksumSHA1": "rXlANUrt/1JZGDisquCxXDamv3M=",
+			"path": "github.com/leodido/go-urn",
+			"revision": "66fa6ee96763d3eb794394b2e7aeaef699a9f2cb",
+			"revisionTime": "2020-12-07T08:10:27Z"
 		},
 		{
 			"checksumSHA1": "UvboqgDDSAbGORdtr5tBpkwYR0A=",
@@ -593,6 +623,12 @@
 			"revisionTime": "2020-10-14T17:42:39Z"
 		},
 		{
+			"checksumSHA1": "bn0M0GXOy3cG2A/i+h1oi3AE4i4=",
+			"path": "golang.org/x/crypto/sha3",
+			"revision": "5f87f3452ae96c4850ab9af7783f2517b643061b",
+			"revisionTime": "2020-12-07T16:24:29Z"
+		},
+		{
 			"checksumSHA1": "BGm8lKZmvJbf/YOJLeL1rw2WVjA=",
 			"path": "golang.org/x/crypto/ssh/terminal",
 			"revision": "ae8bce0030810cf999bb2b9868ae5c7c58e6343b",
@@ -609,6 +645,12 @@
 			"path": "golang.org/x/net/publicsuffix",
 			"revision": "972f0c5fbe4ae29e666c3f78c3ed42ae7a448b0a",
 			"revisionTime": "2015-01-01T02:52:33Z"
+		},
+		{
+			"checksumSHA1": "G1EwD8fecCQQt+I6mNyfEbcN70E=",
+			"path": "golang.org/x/sys/cpu",
+			"revision": "d4d67f95c62d573f21c7627795af8a6c2ab475a5",
+			"revisionTime": "2020-12-07T21:48:35Z"
 		},
 		{
 			"checksumSHA1": "CNHEeGnucEUlTHJrLS2kHtfNbws=",
