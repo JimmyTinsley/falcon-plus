@@ -73,6 +73,12 @@
 			"revisionTime": "2017-07-06T22:48:25Z"
 		},
 		{
+			"checksumSHA1": "A5MIlXwMZXxD+gX8zjI2Gy7mFU0=",
+			"path": "github.com/gin-contrib/pprof",
+			"revision": "2ca1f6e33990593e4e0ebf617b71ab64f0cf88af",
+			"revisionTime": "2020-09-16T06:36:05Z"
+		},
+		{
 			"checksumSHA1": "qlEzrgKgIkh7y0ePm9BNo1cNdXo=",
 			"path": "github.com/gin-contrib/sse",
 			"revision": "06e6e3d866e43b8fad2615b422d3bf05fd63d9be",
