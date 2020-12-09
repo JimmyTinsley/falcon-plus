@@ -20,9 +20,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"net"
 	"net/http"
-	_ "net/http/pprof"
 	"time"
 
+	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
 	"github.com/open-falcon/falcon-plus/modules/graph/g"
 	"github.com/open-falcon/falcon-plus/modules/graph/rrdtool"
@@ -97,6 +97,7 @@ func Start() {
 	}
 
 	router = gin.Default()
+	pprof.Register(router)
 
 	configCommonRoutes()
 	configProcRoutes()

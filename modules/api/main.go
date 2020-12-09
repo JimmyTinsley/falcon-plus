@@ -22,6 +22,7 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
 	yaag_gin "github.com/masato25/yaag/gin"
 	"github.com/masato25/yaag/yaag"
@@ -80,6 +81,7 @@ func main() {
 		gin.SetMode(gin.ReleaseMode)
 	}
 	routes := gin.Default()
+	pprof.Register(routes)
 	if viper.GetBool("gen_doc") {
 		yaag.Init(&yaag.Config{
 			On:       true,

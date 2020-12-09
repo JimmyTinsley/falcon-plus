@@ -15,6 +15,7 @@
 package http
 
 import (
+	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
 	"github.com/open-falcon/falcon-plus/modules/alarm/g"
 	"log"
@@ -30,6 +31,7 @@ func Start() {
 	}
 
 	r := gin.Default()
+	pprof.Register(r)
 	r.GET("/version", Version)
 	r.GET("/health", Health)
 	r.GET("/workdir", Workdir)
