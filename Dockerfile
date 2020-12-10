@@ -1,5 +1,5 @@
 # Build container;
-FROM openfalcon/makegcc-golang:1.10-alpine
+FROM jimmytinsley/makegcc-golang:1.12-alpine-x86-64
 LABEL maintainer laiwei.ustc@gmail.com
 USER root
 
