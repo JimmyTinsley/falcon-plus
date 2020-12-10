@@ -3,7 +3,7 @@ sudo: required
 language: go
 
 go:
-  - "1.11"
+  - "1.12"
 
 go_import_path: github.com/open-falcon/falcon-plus
 
